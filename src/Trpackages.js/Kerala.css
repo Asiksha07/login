@@ -1,0 +1,156 @@
+.heading{
+    
+    
+    display: flex;
+    
+    
+}
+
+.head{
+    margin-left: 100px;
+    margin-top: 40px;
+   
+}
+.box{
+    width: 400px;
+    height: 400px;
+    
+    margin-left: 10px;
+} 
+.image{
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+}
+.h{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.price{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 150px;
+   margin-left: 50px;
+   margin-top: 40px;
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px  rgb(214, 209, 209);
+}
+.price2{
+    width: 200px;
+    height: 90px;
+    background-color: rgb(255, 238, 195);
+    margin-left: 50px;
+    margin-top: 10px; 
+    border-radius: 10px;
+    
+}
+.price2 h5{
+    margin-left: 8px;
+}
+.Butn{
+    width: 200px;
+    background-color: rgb(255, 206,17);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 50px ;
+}
+.para{
+    display: flex;
+    margin-right: 100px;
+}
+.price II{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 150px;
+   margin-left: 50px;
+   margin-top: 40px;
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px  rgb(214, 209, 209);
+  
+}
+.offer{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.Description{
+    margin-top: 20px;
+    width: 900px;
+}
+.Description p{
+    color: gray;
+}
+.des{
+    margin-left: 90px;
+}
+.viewmore{
+    height: 100px;
+}
+.d-block{
+    height: 400px;
+    width: 800px;
+
+}
+.d-block p{
+    color: white;
+}
+.down{
+    margin-left: 65px;
+}
+.click{
+    border-color: #ffce11;
+    border-radius: 5px;
+    
+}
+.It{
+    margin-left: 65px;
+}
+.It h5{
+    margin-left: 50px;
+}
+.It h5:after {
+    content: " ";
+    width: 80px;
+    height: 3px;
+    background: #0a0a0a;
+    display: block;
+    margin-top: 10px;
+    border-radius: 3px;
+    
+}
+.des2{
+    margin-top: 30px;
+}
+hr{
+    border: 1px solid gray;
+    width: 1200px;
+    margin-right: 70px;
+}
+div.polaroid {
+    width: 284px;
+    
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  
+  div.rotate_right {
+    
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+  }
+  
+  div.rotate_left {
+
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+  }
+.stl{
+    margin: 30px;
+    background-color: #ffffff;
+}
