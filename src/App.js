@@ -5,7 +5,8 @@ import Dashboard from "./pages/Dashboard.js";
 import Keralapack from "./Trpackages.js/Keralapack";
 import Hotelform from "./Hotel/Hotelform";
 import Carrental from "./CarRental/Carrental";
-import HotelList from "./Hotel/HotelList"
+import HotelList from "./Hotel/HotelList";
+import MainTourpackage from "./Trpackages.js/MainTourpackage";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Hotelform" element={<Hotelform/>}/>
         <Route path="/Carrental" element={<Carrental/>}/>
         <Route path="/HotelList" element={<HotelList/>}/>
+        <Route path="/MainTourpackage" element={<MainTourpackage/>}/>
         
        
         

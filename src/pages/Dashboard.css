@@ -67,8 +67,9 @@
   background: #f6f6f6;
  }
  .sell{
-  width: 200vh;
+  width: 150vh;
   margin-top: 5px;
+  margin-left: 50px;
   font-weight: bold;
   color: #000000;
   background: #f6f6f6;
@@ -167,7 +168,7 @@ p{
   .crd2:hover .overlayss {opacity: 1;}  
 
 
-  .car3 img{transition: 1s ease;} 
+  /* .car3 img{transition: 1s ease;} 
     .car3 img:hover{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -189,12 +190,12 @@ p{
         transition: 1s ease;
         }
         .crd1 img{
-          transition: 1s ease;}
+          transition: s ease;}
           .crd1 img:hover{
           -webkit-transform: scale(1.1);
           -ms-transform: scale(1.1);
           transform: scale(1.1);
-          transition: 1s ease;
+          transition: s ease;
           }
            .nav{
             background-color:   #dfe4eb;
@@ -204,4 +205,4 @@ p{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    transition: 1s ease;}
+    transition: 1s ease;} */

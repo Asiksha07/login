@@ -1,7 +1,5 @@
-import gift from './gift.png';
-//import chris from './christmas.gif';
+
 import chris from './Images/new.gif';
-import support from './support.png';
 import logo from './logo.png'
 import img1 from'../pages/Images/Kerala.jpg';
 import img2 from'../pages/Images/Kerala1.jpg';
@@ -13,28 +11,17 @@ import img7 from'../pages/Images/Temple.jpg';
 import img8 from'../pages/Images/Kanniya.jpg';
 import img9 from'../pages/Images/tamilnadu.jpg';
 import img10 from'../pages/Images/ooty.jpg';
+import Navcomp from '../components/Navcomponent';
 // import { Container, Row, Col,CCard} from 'react-bootstrap';
 import './Dashboard.css'
 import { Link } from 'react-router-dom';
 function Dashboard() {
+  
     return (
         <div className='Main'>
 
 
-            <nav class="navbar nav fixed-top ">
-              
-                <a class="navbar-brand logo"><img src={logo} width="30" height="30" class="d-inline-block align-top" alt=""></img>Start Travelling</a>
-
-
-                <form class="form-inline">
-                    <a ><img src={gift} width="20" height="20" class="d-inline-block align-top" alt=""></img> offers</a>
-                    <a><img src={support} width="20" height="20" class="d-inline-block align-top" alt=""></img>  support</a>
-                    <a class="navbar-brand"></a>
-                    <Link exact to="/Registerpage">
-                    <button class="btn btn-primary" type="submit">signin/signup</button>
-                    </Link>
-                </form>
-            </nav>
+          <Navcomp></Navcomp>
 
 
             <div className='cont'>
@@ -42,10 +29,11 @@ function Dashboard() {
                 <img src={chris} className="imge"></img>
                 <div class="container  lab">
                     {/* <nav class="navbar navbar-expand-lg navi "> */}
+                    <a href="/MainTourpackage" class="list-group-item list-group-item-action labl sell ">Tour packages</a>
                         <a href="/HotelList" class="list-group-item list-group-item-action labl select ">Hotels</a>
-                        <a href="#" class="list-group-item list-group-item-action labl sell ">Tour packages</a>
+                       
                         <a href="#" class="list-group-item list-group-item-action labl sel">Car Rental</a>
-                        <a href="#" class="list-group-item list-group-item-action labl sel">Boat House</a>
+                        {/* <a href="#" class="list-group-item list-group-item-action labl sel">Boat House</a> */}
                         <a href="#" class="list-group-item list-group-item-action labl sel">Visit</a>
 
                     {/* </nav> */}
@@ -133,6 +121,7 @@ function Dashboard() {
                 </form>
             </nav>
 </div>
+
         </div>
     )
 }
